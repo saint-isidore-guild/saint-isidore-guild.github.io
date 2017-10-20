@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>St. Isidore Guild</title>
+    <link>https://saint-isidore-guild.github.io</link>
+    <atom:link href="https://saint-isidore-guild.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <description>JBake Bootstrap Template</description>
+    <language>en-gb</language>
+    <pubDate>Thu, 19 Oct 2017 22:46:35 -0500</pubDate>
+    <lastBuildDate>Thu, 19 Oct 2017 22:46:35 -0500</lastBuildDate>
+
+    
+
+  </channel> 
+</rss>
