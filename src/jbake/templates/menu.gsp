@@ -14,7 +14,11 @@
           <ul class="nav navbar-nav">
             <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>index.html">Home</a></li>
             <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>about.html">About</a></li>
-            <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>${config.feed_file}">Subscribe</a></li>
+            <li><a href="https://eepurl.com/dzBg-L" target="_blank">Subscribe</a></li>
+            <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>${config.feed_file}">RSS</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://github.com/saint-isidore-guild" target="_blank"><i class="icon-github-sign"></i></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
