@@ -50,7 +50,7 @@
             in the fields, in the home and in all the immense panorama of work.</blockquote>
         </div>
         <div class="col-md-4">
-            <h4>Bl. John Henry Newman</h4>
+            <h4>St. John Henry Newman</h4>
             <img src="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>/images/newman.jpg" alt="Blessed John Henry Newman, patron of our Guild" />
             <p></p>
             <blockquote>God has created me to do Him some definite service. He has committed some work to me which
