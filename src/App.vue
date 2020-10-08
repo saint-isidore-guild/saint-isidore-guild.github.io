@@ -38,24 +38,38 @@
     </v-app-bar>
 
     <v-main>
-      <h1>St. Isidore Guild</h1>
-      <HelloWorld/>
+      <h1>Saint Isidore Guild</h1>
+      <h3>Our Patrons</h3>
+      <patron v-for="(saint, i) in patrons" :key="i" :name="saint.name" :quote="saint.quote"></patron>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Patron from "./components/Patron"
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Patron
   },
 
   data: () => ({
-    //
+    patrons: [
+      {
+        name: "St. Isidore of Seville",
+        quote: "Prudence is a great virtue"
+      },
+      {
+        name: "St. Josemaria",
+        quote: "In the active life"
+      },
+      {
+        name: "John Henry",
+        quote: "Be holy"
+      },
+    ]
   }),
 };
 </script>
