@@ -38,6 +38,7 @@
     </v-app-bar>
 
     <v-main>
+      <h1>St. Isidore Guild</h1>
       <HelloWorld/>
     </v-main>
   </v-app>
