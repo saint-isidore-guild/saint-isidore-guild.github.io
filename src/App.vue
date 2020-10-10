@@ -69,6 +69,10 @@ export default {
         name: "John Henry",
         quote: "Be holy"
       },
+      {
+        name: "Blessed Carlo Acutis",
+        quote: "There are people who suffer much more than me"
+      },
     ]
   }),
 };
