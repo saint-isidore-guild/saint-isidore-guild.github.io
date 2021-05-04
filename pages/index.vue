@@ -22,14 +22,7 @@
 </template>
 
 <script>
-import Patron from '~/components/Patron'
-import Prayer from '~/components/Prayer'
-
 export default {
-  components: {
-    Patron,
-    Prayer
-  },
   data () {
     return {
       patrons: [
