@@ -3,7 +3,8 @@
 ## Built With
 - Vue 2
 - Vuetify
-- [Nuxt.js](https://nuxtjs.org).
+- [Nuxt.js](https://nuxtjs.org)
+
 
 ## Build Setup
 Install node 14 via [NVM](https://github.com/nvm-sh/nvm)
