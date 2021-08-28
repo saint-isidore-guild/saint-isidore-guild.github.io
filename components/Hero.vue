@@ -15,38 +15,38 @@
         >
           <base-subheading
             weight="regular"
-            title="WE LOVE MAKING THINGS SIMPLE AND AMAZING"
+            title="Ancient Religion, New Technology"
           />
 
           <base-heading
             size="text-h2"
-            title="WELCOME TO ZERO"
+            title="St. Isidore Guild"
             weight="medium"
           />
 
           <base-body>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nobis neque aspernatur in quas iure id aliquid, esse debitis, quibusdam mollitia! Quia ea expedita magnam totam, earum omnis et perspiciatis?
+            The St. Isidore Guild is a professional apostolate under the patronage of the St. Isidore of Seville based in St. Paul, Minnesota. We remain engaged in the future of Information Technology by fostering friendship and collaboration among IT professionals. Grateful for the vocation, gifts, and skills we have received, we resolve to build upon them and create opportunities for ongoing professional and spiritual formation.
           </base-body>
 
-          <div
-            :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
-            class="d-flex flex-wrap"
-          >
-            <base-btn>
-              Discover More
-            </base-btn>
+<!--          <div-->
+<!--            :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"-->
+<!--            class="d-flex flex-wrap"-->
+<!--          >-->
+<!--            <base-btn>-->
+<!--              Discover More-->
+<!--            </base-btn>-->
 
-            <span class="font-weight-bold ml-6 mr-4 my-4">or</span>
+<!--            <span class="font-weight-bold ml-6 mr-4 my-4">or</span>-->
 
-            <base-btn
-              :ripple="false"
-              class="pa-1"
-              height="auto"
-              text
-            >
-              Get Started Now
-            </base-btn>
-          </div>
+<!--            <base-btn-->
+<!--              :ripple="false"-->
+<!--              class="pa-1"-->
+<!--              height="auto"-->
+<!--              text-->
+<!--            >-->
+<!--              Get Started Now-->
+<!--            </base-btn>-->
+<!--          </div>-->
         </v-responsive>
       </v-container>
     </v-img>
