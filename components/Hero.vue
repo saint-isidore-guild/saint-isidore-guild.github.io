@@ -25,28 +25,28 @@
           />
 
           <base-body>
-            The St. Isidore Guild is a professional apostolate under the patronage of the St. Isidore of Seville based in St. Paul, Minnesota. We remain engaged in the future of Information Technology by fostering friendship and collaboration among IT professionals. Grateful for the vocation, gifts, and skills we have received, we resolve to build upon them and create opportunities for ongoing professional and spiritual formation.
+            A professional association for Catholic software engineers, IT professionals, and code ninjas
           </base-body>
 
-<!--          <div-->
-<!--            :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"-->
-<!--            class="d-flex flex-wrap"-->
-<!--          >-->
-<!--            <base-btn>-->
-<!--              Discover More-->
-<!--            </base-btn>-->
+          <!--          <div-->
+          <!--            :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"-->
+          <!--            class="d-flex flex-wrap"-->
+          <!--          >-->
+          <!--            <base-btn>-->
+          <!--              Discover More-->
+          <!--            </base-btn>-->
 
-<!--            <span class="font-weight-bold ml-6 mr-4 my-4">or</span>-->
+          <!--            <span class="font-weight-bold ml-6 mr-4 my-4">or</span>-->
 
-<!--            <base-btn-->
-<!--              :ripple="false"-->
-<!--              class="pa-1"-->
-<!--              height="auto"-->
-<!--              text-->
-<!--            >-->
-<!--              Get Started Now-->
-<!--            </base-btn>-->
-<!--          </div>-->
+          <!--            <base-btn-->
+          <!--              :ripple="false"-->
+          <!--              class="pa-1"-->
+          <!--              height="auto"-->
+          <!--              text-->
+          <!--            >-->
+          <!--              Get Started Now-->
+          <!--            </base-btn>-->
+          <!--          </div>-->
         </v-responsive>
       </v-container>
     </v-img>

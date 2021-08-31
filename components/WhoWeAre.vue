@@ -1,7 +1,7 @@
 <template>
   <base-section id="theme-features">
     <base-section-heading title="Who We Are">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in! Asperiores, impedit libero. Veniam rerum saepe unde nihil possimus quibusdam esse accusamus mollitia magni fuga.
+      The St. Isidore Guild is a professional apostolate under the patronage of the St. Isidore of Seville based in St. Paul, Minnesota. We remain engaged in the future of Information Technology by fostering friendship and collaboration among IT professionals. Grateful for the vocation, gifts, and skills we have received, we resolve to build upon them and create opportunities for ongoing professional and spiritual formation.
     </base-section-heading>
 
     <v-container>
@@ -38,7 +38,7 @@ export default {
         },
         {
           title: 'Catholic',
-          icon: 'mdi-fountain-pen-tip',
+          icon: 'mdi-cross',
           text: ''
         },
         {
