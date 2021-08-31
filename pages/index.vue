@@ -31,12 +31,16 @@
     <section>
       <v-row>
         <v-col cols="12">
-          <h3>Our Patrons</h3>
-          <v-row>
-            <v-col v-for="(saint, i) in patrons" :key="i" cols="3">
-              <patron :name="saint.name" :quote="saint.quote" :img-src="saint.img" />
-            </v-col>
-          </v-row>
+          <base-section id="stIsidore">
+            <base-section-heading title="Our Patrons" />
+            <v-container>
+              <v-row v-for="(saint, i) in patrons" :key="i">
+                <v-col cols="12">
+                  <patron :name="saint.name" :quote="saint.quote" :img-src="saint.img" />
+                </v-col>
+              </v-row>
+            </v-container>
+          </base-section>
         </v-col>
       </v-row>
     </section>
@@ -65,7 +69,7 @@ export default {
         },
         {
           name: 'Bl. Carlo Acutis',
-          quote: 'Be Holy',
+          quote: 'To always be close to Jesus, that’s my life plan.',
           img: '/img/acutis.jpeg'
         }
       ]
