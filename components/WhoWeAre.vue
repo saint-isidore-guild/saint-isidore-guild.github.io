@@ -33,18 +33,18 @@ export default {
       features: [
         {
           title: 'Based in the Midwest',
-          icon: 'mdi-fountain-pen-tip',
+          icon: 'mdi-cow',
           text: 'And growing across the country'
         },
         {
           title: 'Catholic',
           icon: 'mdi-cross',
-          text: ''
+          text: "We're faithful to the teachings of the Church and encourage one another in the quest for holiness"
         },
         {
           title: 'Love to Code',
-          icon: 'mdi-fountain-pen-tip',
-          text: ''
+          icon: 'mdi-code-braces',
+          text: 'Front-end, back-end, ops, you name IT'
         }
       ]
     }
