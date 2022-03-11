@@ -25,9 +25,9 @@
 export default {
   name: 'Patron',
   props: {
-    name: String,
-    quote: String,
-    imgSrc: String
+    name: { type: String, default: '' },
+    quote: { type: String, default: '' },
+    imgSrc: { type: String, default: '' }
   }
 }
 </script>

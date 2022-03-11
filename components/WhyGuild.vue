@@ -19,7 +19,7 @@
             sm="4"
             md="3"
           >
-            <base-info-card
+            <base-avatar-card
               align="center"
               dark
               v-bind="card"

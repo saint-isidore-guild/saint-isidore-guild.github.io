@@ -76,7 +76,8 @@ export default {
     icon: String,
     subtitle: String,
     text: String,
-    title: String
+    title: String,
+    align: { type: String, default: 'center' }
   }
 }
 </script>

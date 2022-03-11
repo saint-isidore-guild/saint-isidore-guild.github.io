@@ -12,6 +12,7 @@
         :key="link.to"
         :to="link.to"
         text
+        :nuxt="true"
       >
         {{ link.title }}
       </v-btn>

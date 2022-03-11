@@ -10,15 +10,15 @@
           v-for="(feature, i) in features"
           :key="i"
           cols="12"
-          md="6"
+          sm="4"
         >
-          <base-avatar-card
+          <base-info-card
             v-bind="feature"
             align="left"
             horizontal
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!
-          </base-avatar-card>
+          </base-info-card>
         </v-col>
       </v-row>
     </v-container>
